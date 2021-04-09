@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    height: 100%;
+    padding-bottom: 50px;
+    background-color: blue;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.login-card {
+    background-color: white;
+    width: 400px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 0.3em;
+    box-shadow: 2px 2px 0 0 #16207D;
+}
+.post div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.post div h4 {
+    color: #16207D;
+    font-size: 40px;
+    margin: 0;
+}
+.blog-icon {
+    height: 100px;
+    border-radius: 0.5em;
+    box-shadow: 2px 2px 0px 0px black;
+}
+.post p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1.1;
+    color: #16207D;
+}
+.post div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.post button {
+    color: #16207D;
+    background-color: white;
+    border-radius: 0.3em;
+    border: 1px solid black;
+    font-size:  14px;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+}
+.post button:hover {
+    color: white;
+    background-color: #16207D;
+}
